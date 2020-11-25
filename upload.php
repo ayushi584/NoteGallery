@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     
         $filename = $_FILES["uploadfile"]["name"]; 
         $tempname = $_FILES["uploadfile"]["tmp_name"];	 
-            $folder = "image/".$filename; 
+            $folder = "files/".$filename; 
       
  
     
@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <head>
 <link rel="stylesheet" href="signup.css">
 <link rel="stylesheet" href="login.css">
-9
+
 </head>
 
 <body background="wall.jpg">
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
           <p style="  text-align: center;">Please fill details.</p>
           <hr>
           <label for="title"><b>Subject</b></label>
-          <input type="text" placeholder="Enter subject" name="Title" required>
+          <input type="text" placeholder="Enter subject" name="title" required>
     
         <b>Description</b>
         <br>
