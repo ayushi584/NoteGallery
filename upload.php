@@ -76,10 +76,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <!DOCTYPE html>
 <html>
+  <head>
 <link rel="stylesheet" href="signup.css">
 <link rel="stylesheet" href="login.css">
+9
+</head>
 
-<body>
+<body background="wall.jpg">
 
 
 <div id="id02" class="modal" style="display:block">
@@ -88,18 +91,19 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
 
-          <h1 style="  text-align: center;">Add Idea</h1>
-          <p style="  text-align: center;">Please fill in this form to add an Idea.</p>
+          <h1 style="  text-align: center;">Upload notes</h1>
+          <p style="  text-align: center;">Please fill details.</p>
           <hr>
-          <label for="title"><b>Title</b></label>
-          <input type="text" placeholder="Title" name="title" required>
+          <label for="title"><b>Subject</b></label>
+          <input type="text" placeholder="Enter subject" name="Title" required>
     
-        <b>Idea</b>
+        <b>Description</b>
         <br>
-          <textarea rows="10" cols="50" type="text" placeholder="Enter text here ..." name="idea" required>
+          <textarea rows="7" cols="50" type="text" placeholder="Enter text here ..." name="idea" required>
         </textarea>
+        <br>
     <input type="file" name="uploadfile" value=""/>
-          <p>This can be a world changing Idea.</p>
+          <p>Thanking you for your contibution....</p>
     
           <div class="clearfix">
             <button type="button" onclick="window.location.href='welcome.html'" class="cancelbtn">Cancel</button>
