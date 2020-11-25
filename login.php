@@ -81,7 +81,7 @@ if(empty($err))
   
             <form class="modal-content animate" action="" method="post">
               <div class="imgcontainer">
-                <img src="photos/avatar.png" alt="Avatar" class="avatar">
+                <img src="avatar.png" alt="Avatar" class="avatar">
                 <h2>Login Here</h2>
               </div>
   

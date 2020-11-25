@@ -88,7 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
       <form class="modal-content" action="" method="POST" style="width: 40%;">      
         <div class="imgcontainer">
         <!-- <span onclick="document.getElementById('id02').style.display='block'" class="close" title="Close">&times;</span> -->
-        <img src="photos/avatar.png" alt="Avatar" style="width: 10%;" class="avatar">
+        <img src="avatar.png" alt="Avatar" style="width: 10%;" class="avatar">
       </div>
         <div class="container">
           <h1 style="  text-align: center;">Sign Up</h1>
